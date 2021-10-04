@@ -1,0 +1,395 @@
+{
+	"info": {
+		"_postman_id": "0b6ef70d-00aa-4170-a8ae-1d4836c252ae",
+		"name": "WebApplication2Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "RegByMonthNoAPIKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44311/api/registration/bymonth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"registration",
+						"bymonth"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegByMonthDefault",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/registration/bymonth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"registration",
+						"bymonth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegByMonthNormal",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/registration/bymonth/202009",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"registration",
+						"bymonth",
+						"202009"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegByMonthNoAvail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/registration/bymonth/202003",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"registration",
+						"bymonth",
+						"202003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourNoAPIKey",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourDefault",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourStartEnd",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour?startTime=2021-12-15T19:00:00&endTime=2021-12-15T23:00:00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					],
+					"query": [
+						{
+							"key": "startTime",
+							"value": "2021-12-15T19:00:00"
+						},
+						{
+							"key": "endTime",
+							"value": "2021-12-15T23:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourStart",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour?startTime=2021-12-16T15:00:00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					],
+					"query": [
+						{
+							"key": "startTime",
+							"value": "2021-12-16T15:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourEnd",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour?endTime=2021-12-15T23:00:00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					],
+					"query": [
+						{
+							"key": "endTime",
+							"value": "2021-12-15T23:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SessByHourNoAvail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/sessions/byhour?endTime=2021-11-15T23:00:00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"sessions",
+						"byhour"
+					],
+					"query": [
+						{
+							"key": "endTime",
+							"value": "2021-11-15T23:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AnomaliesWrongAPIKey",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwert",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/users/anomalies",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"users",
+						"anomalies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AnomaliesNoAPIKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44311/api/users/anomalies",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"users",
+						"anomalies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AnomaliesDefault",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwerty",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44311/api/users/anomalies",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44311",
+					"path": [
+						"api",
+						"users",
+						"anomalies"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

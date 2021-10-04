@@ -59,3 +59,4 @@ C:\Users\magma\source\repos\WebApplication2\obj\Release\net5.0\WebApplication2.d
 C:\Users\magma\source\repos\WebApplication2\obj\Release\net5.0\ref\WebApplication2.dll
 C:\Users\magma\source\repos\WebApplication2\obj\Release\net5.0\WebApplication2.pdb
 C:\Users\magma\source\repos\WebApplication2\obj\Release\net5.0\WebApplication2.genruntimeconfig.cache
+C:\Users\magma\source\repos\WebApplication2\bin\Release\net5.0\Extras\WebApplication2Collection.postman_collection.json
